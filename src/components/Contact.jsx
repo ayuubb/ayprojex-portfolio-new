@@ -10,13 +10,23 @@ export default function Contact() {
         <p className="mb-6 text-slate-300">Open to collaborations in AI data operations, quality pipelines, and modern frontend products.</p>
 
         <div className="flex flex-wrap gap-3">
-          <a className="inline-flex items-center gap-2 rounded-xl border border-emerald-400/40 px-4 py-2 text-emerald-300" href={`mailto:${profile.contacts.email}`}>
+          <a className="inline-flex items-center gap-2 rounded-xl border border-accent/40 px-4 py-2 text-accent" href={`mailto:${profile.contacts.email}`}>
             <Mail size={16} /> {profile.contacts.email}
           </a>
-          <a className="inline-flex items-center gap-2 rounded-xl border border-cyan-400/40 px-4 py-2 text-cyan-300" href={profile.contacts.github} target="_blank" rel="noreferrer">
+          <a
+            className="inline-flex items-center gap-2 rounded-xl border border-slate-600 px-4 py-2 text-slate-200 transition hover:border-accent hover:text-accent"
+            href={profile.contacts.github}
+            target="_blank"
+            rel="noreferrer"
+          >
             <Github size={16} /> GitHub
           </a>
-          <a className="inline-flex items-center gap-2 rounded-xl border border-cyan-400/40 px-4 py-2 text-cyan-300" href={profile.contacts.linkedin} target="_blank" rel="noreferrer">
+          <a
+            className="inline-flex items-center gap-2 rounded-xl border border-slate-600 px-4 py-2 text-slate-200 transition hover:border-accent hover:text-accent"
+            href={profile.contacts.linkedin}
+            target="_blank"
+            rel="noreferrer"
+          >
             <Linkedin size={16} /> LinkedIn
           </a>
         </div>

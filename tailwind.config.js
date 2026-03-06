@@ -6,16 +6,16 @@ export default {
       colors: {
         slate950: '#020617',
         slate900: '#0f172a',
-        emerald400: '#34d399',
-        cyan400: '#22d3ee',
+        slate800: '#1e293b',
+        accent: '#2dd4bf',
+        accentHover: '#14b8a6',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-        mono: ['JetBrains Mono', 'monospace'],
+        mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
       },
       boxShadow: {
-        glowEmerald: '0 0 28px rgba(52, 211, 153, 0.2)',
-        glowCyan: '0 0 28px rgba(34, 211, 238, 0.2)',
+        glowTeal: '0 0 28px rgba(45, 212, 191, 0.2)',
       },
     },
   },

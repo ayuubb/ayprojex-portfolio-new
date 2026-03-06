@@ -15,7 +15,7 @@ export default function Navbar() {
         </a>
         <div className="flex items-center gap-5 text-sm text-slate-300">
           {navItems.map((item) => (
-            <a key={item.id} href={`#${item.id}`} className="transition hover:text-cyan-300">
+            <a key={item.id} href={`#${item.id}`} className="transition hover:text-accent">
               {item.label}
             </a>
           ))}

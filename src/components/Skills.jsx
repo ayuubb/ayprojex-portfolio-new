@@ -4,7 +4,7 @@ import SectionReveal from './SectionReveal'
 function SkillCard({ title, items }) {
   return (
     <div className="glass rounded-2xl border border-slate-800 p-5">
-      <h3 className="mb-3 font-mono text-sm uppercase tracking-widest text-cyan-300">{title}</h3>
+      <h3 className="mb-3 font-mono text-sm uppercase tracking-widest text-accent">{title}</h3>
       <div className="flex flex-wrap gap-2">
         {items.map((item) => (
           <span key={item} className="rounded-lg border border-slate-700 bg-slate-900 px-3 py-1 text-sm text-slate-300">

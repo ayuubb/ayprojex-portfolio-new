@@ -3,8 +3,8 @@ import { profile } from '../data/profile'
 import SectionReveal from './SectionReveal'
 
 const tagStyle = {
-  ai: 'border-emerald-400/40 bg-emerald-400/10 text-emerald-300 shadow-glowEmerald',
-  frontend: 'border-cyan-400/40 bg-cyan-400/10 text-cyan-300 shadow-glowCyan',
+  ai: 'border-accent/40 bg-accent/10 text-accent shadow-glowTeal',
+  frontend: 'border-slate-500 bg-slate-700/30 text-slate-200',
 }
 
 export default function Experience() {
@@ -19,7 +19,7 @@ export default function Experience() {
               <BriefcaseBusiness size={14} className="text-slate-300" />
             </span>
 
-            <div className="glass rounded-2xl border border-slate-800 p-5">
+            <div className="glass rounded-2xl border border-slate-700/70 p-5">
               <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
                 <h3 className="text-xl font-semibold text-white">{item.company}</h3>
                 <span className={`rounded-full border px-3 py-1 text-xs font-medium ${tagStyle[item.focus]}`}>
